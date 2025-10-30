@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>公司社交媒体搜索</title>
+    <title>公司社交媒体链接提取</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>公司社交媒体搜索工具</h1>
-        <p>输入公司域名（如 "example.com"），点击搜索，将生成每个社交媒体的单独搜索链接（点击链接查看实际账号，包括多个如果存在）。</p>
+        <h1>公司社交媒体链接提取工具</h1>
+        <p>输入公司域名（如 "tesla.com"），点击搜索，将直接提取每个社交媒体的账号链接（支持多个，前3个）。如图二效果，支持下载 CSV。</p>
         <input type="text" id="input" placeholder="输入公司域名">
         <button onclick="search()">搜索</button>
+        <button id="download" style="display:none; margin-top:10px; width:100%;" onclick="downloadCSV()">下载所有链接 (CSV)</button>
         <div id="results"></div>
     </div>
     <script src="script.js"></script>
