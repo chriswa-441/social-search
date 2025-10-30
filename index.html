@@ -9,10 +9,9 @@
 <body>
     <div class="container">
         <h1>公司社交媒体链接提取工具</h1>
-        <p>输入公司域名（如 "tesla.com"），点击搜索，将直接提取每个社交媒体的账号链接（支持多个，前3个）。如图二效果，支持下载 CSV。</p>
+        <p>输入公司域名（如 "tesla.com"），点击搜索，将直接提取并罗列所有社交媒体的账号链接（支持多个，不分组）。</p>
         <input type="text" id="input" placeholder="输入公司域名">
         <button onclick="search()">搜索</button>
-        <button id="download" style="display:none; margin-top:10px; width:100%;" onclick="downloadCSV()">下载所有链接 (CSV)</button>
         <div id="results"></div>
     </div>
     <script src="script.js"></script>
