@@ -40,36 +40,28 @@ button:hover {
     background: #0056b3;
 }
 
-#download {
-    background: #28a745;
-}
-
-#download:hover {
-    background: #218838;
-}
-
 #results {
     margin-top: 20px;
 }
 
 .result-item {
-    margin: 10px 0;
-    padding: 10px;
-    background: #fffacd; /* 像图二的浅黄色背景 */
+    margin: 5px 0;
+    padding: 8px;
+    background: #fffacd; /* 浅黄色背景，像图二 */
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 14px;
 }
 
 .result-item strong {
-    color: #0000ff; /* 像图二的蓝色站点名 */
+    color: #0000ff; /* 蓝色站点名 */
 }
 
 .result-item a {
     display: block;
     color: #007bff;
     text-decoration: none;
-    word-break: break-all; /* 支持长链接换行 */
+    word-break: break-all;
 }
 
 .result-item a:hover {
